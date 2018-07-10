@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -62,6 +63,41 @@ namespace SortingLists
             seconddoublelinkedlist.Delete("betty");
 
             seconddoublelinkedlist.ShowNodes();
+
+
+            var arraylist = new ArrayList();
+            arraylist.Contains("Fred"); //should be false
+            arraylist.Add("Fred");
+            arraylist.Contains("Fred"); //should be true
+            arraylist.Contains("Wilma"); //should be false
+            arraylist.Add("Wilma");
+            arraylist.Contains("Wilma"); //should be true
+
+            foreach(var item in arraylist)
+            {
+                Console.WriteLine(item);
+            }
+
+            var secondarraylist = new ArrayList();
+
+            secondarraylist.Add("fred");
+            secondarraylist.Add("wilma");
+            secondarraylist.Add("betty");
+            secondarraylist.Add("barney");
+
+
+            foreach (var item in secondarraylist)
+            {
+                Console.WriteLine(item);
+            }
+
+            secondarraylist.Remove("wilma");
+            secondarraylist.Remove("barney");
+
+            foreach (var item in secondarraylist)
+            {
+                Console.WriteLine(item);
+            }
 
 
 
