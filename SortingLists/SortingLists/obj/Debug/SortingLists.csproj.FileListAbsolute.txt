@@ -1,0 +1,7 @@
+C:\Users\Tim\source\repos\SortingLists\SortingLists\bin\Debug\SortingLists.exe.config
+C:\Users\Tim\source\repos\SortingLists\SortingLists\bin\Debug\SortingLists.exe
+C:\Users\Tim\source\repos\SortingLists\SortingLists\bin\Debug\SortingLists.pdb
+C:\Users\Tim\source\repos\SortingLists\SortingLists\obj\Debug\SortingLists.csprojResolveAssemblyReference.cache
+C:\Users\Tim\source\repos\SortingLists\SortingLists\obj\Debug\SortingLists.csproj.CoreCompileInputs.cache
+C:\Users\Tim\source\repos\SortingLists\SortingLists\obj\Debug\SortingLists.exe
+C:\Users\Tim\source\repos\SortingLists\SortingLists\obj\Debug\SortingLists.pdb
