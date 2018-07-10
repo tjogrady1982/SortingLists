@@ -36,6 +36,34 @@ namespace SortingLists
 
             list.ShowNodes();
 
+            var doublelinkedlist = new DoublyLinkedList();
+
+            doublelinkedlist.Find("Fred");
+            doublelinkedlist.Add("Fred");
+            doublelinkedlist.Find("Fred");
+            doublelinkedlist.Find("Wilma");
+            doublelinkedlist.Add("Wilma");
+            doublelinkedlist.Find("Wilma");
+
+            doublelinkedlist.ShowNodes();
+
+            var seconddoublelinkedlist = new DoublyLinkedList();
+            seconddoublelinkedlist.Add("fred");
+            seconddoublelinkedlist.Add("wilma");
+            seconddoublelinkedlist.Add("betty");
+            seconddoublelinkedlist.Add("barney");
+
+            seconddoublelinkedlist.ShowNodes();
+
+            seconddoublelinkedlist.Delete("fred");
+
+            seconddoublelinkedlist.ShowNodes();
+
+            seconddoublelinkedlist.Delete("betty");
+
+            seconddoublelinkedlist.ShowNodes();
+
+
 
             Console.ReadLine();
         }
